@@ -1,0 +1,11 @@
+var fruits=["blueberry","rasberry","strawberry"];
+console.log(fruits);
+document.getElementById("ex1").innerHTML=fruits;
+var first=fruits[0];
+console.log(first);
+document.getElementById("ex2").innerHTML=first;
+var firstname="Snehetha";
+var secondname="Nalluri";
+var fullname= firstname.concat(secondname);
+console.log(fullname);
+document.getElementById("ex3").innerHTML=fullname;
